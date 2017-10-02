@@ -1,47 +1,52 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+### Haskell
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+*.prof
+*.aux
+*.hp
+*.eventlog
+.virtualenv
+.hsenv
+.hpc
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.config
+cabal.project.local
+.HTF/
+# Stack
+.stack-work/
 
-# Folder config file
-Desktop.ini
+### IDE/support
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+*~
+tags
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# IntellijIDEA
+.idea/
+.ideaHaskellLib/
+*.iml
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Atom
+.haskell-ghc-mod.json
 
-# Windows shortcuts
-*.lnk
+# VS
+.vscode/
 
-# =========================
-# Operating System Files
-# =========================
+# Emacs
+*#
+.dir-locals.el
+TAGS
 
-# OSX
-# =========================
-
+# other
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
